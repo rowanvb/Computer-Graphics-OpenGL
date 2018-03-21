@@ -1,0 +1,10 @@
+*.DS_Store
+*build*
+*build-*
+*.pro.user
+*.pro.user.*
+*.user
+/bin*
+Lab 3/bin/
+*.idea
+Lab 5/bin/
