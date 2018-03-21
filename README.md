@@ -1,4 +1,4 @@
-Additional Features:
+## Additional Features:
 - An object selection tool
 - View Rotation, controlled by dragging mouse on the view and the dials
 - Zoom, controlled by scrolling mouse on the view or the slider
@@ -14,16 +14,4 @@ Each Object has a few parameters that can be modified using this tool:
 - Rotation speed
 - Material coefficients (Diffuse, Specular & Specular exponent)
 
-Each frame, the object's transformation matrix is updated and it's variables are updated.
-
-Our paintGL flow is as follows:
-- clear screen
-- bind active shader program
-- set projection, view and light uniforms
-for each object:
-  - update object transformation
-  - bind vao
-  - bind texture
-  - set model & normal matrix and material uniform
-  - draw object
-signal objectsChanged (triggers update in mainwindow)
+![alt text](https://github.com/rowanvb/Computer-Graphics-OpenGL/blob/master/Screenshots/screen.JPG "Logo Title Text 1")
